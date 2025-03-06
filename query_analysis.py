@@ -5,10 +5,16 @@ from itertools import combinations
 
 def extract_keywords(queries):
     # Updated pattern to include dots in keywords
-    
+    fts_queries=[]
     pattern = r'\b[@\w.]+\b(?=:)'
     keyword_list=[]
     for query in queries:
+        keywords = re.findall(pattern, query)
+
+        if len(keywords) == 0:
+            fts_queries.append(query)
+
+
         cleaned = re.sub(r'"[^"]*"', '', query)
 
         # Extract all keywords using regex
@@ -18,7 +24,7 @@ def extract_keywords(queries):
 
         # Use a set to avoid duplicates and convert back to list if needed
         keyword_list.append(set(keywords))
-    return keyword_list
+    return keyword_list, fts_queries
 
 def analyze_query_filters(csv_file):
     # Load CSV file
@@ -30,7 +36,12 @@ def analyze_query_filters(csv_file):
     # Extract the queries column
     queries = df['query_Query'].dropna()  # Drop NaN values to avoid errors
     
-    stars=1
+    query_filters,fts_queries = extract_keywords(queries)
+
+    print('FTS-only count:',len(fts_queries))
+    print('FTS-only percentage:',len(fts_queries)/len(queries)*100)
+
+    stars=0
     
     for q in queries:
         if "*"  in q:
@@ -38,9 +49,6 @@ def analyze_query_filters(csv_file):
     
     print('Star count:',stars)
     print('Star percentage:',stars/len(queries)*100)
-
-
-    query_filters = extract_keywords(queries)
 
     all_filters = [token for query in query_filters for token in query]
 
