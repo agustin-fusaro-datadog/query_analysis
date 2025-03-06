@@ -1,0 +1,3 @@
+query_Query,@org_id
+((monitor_groups:"kube_node:ip-172-45-151-206.ap-northeast-1.compute.internal") OR (type:EVENT_MANAGEMENT AND kube_node:"ip-172-45-151-206.ap-northeast-1.compute.internal")) is_archived:false monitor_id:160455122 status:OPEN, 2
+((monitor_groups:"datacenter:us3.prod.dog" AND monitor_groups:"kube_cluster_name:zekrom" AND monitor_groups:"kube_node:us3-prod-dog-zekrom-107d7cde8463019e000081") OR (type:EVENT_MANAGEMENT AND datacenter:"us3.prod.dog" AND kube_cluster_name:"zekrom" AND kube_node:"us3-prod-dog-zekrom-107d7cde8463019e000081")) is_archived:false monitor_id:21946251 status:OPEN, 2

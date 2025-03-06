@@ -1,0 +1,87 @@
+Token Tuple,Count,Percentage
+"{is_archived, project}",29785,30.339298992594703
+"{title, status}",16874,17.188025220783718
+"{is_archived, status, project}",10207,10.396952318865676
+"{title, project}",9507,9.683925315514449
+"{creation_source, status}",6066,6.178888289040775
+{status},5804,5.912012467786458
+{is_archived},4913,5.004430953520825
+"{is_archived, assignee, project}",3858,3.9297973984700483
+"{is_archived, status}",2518,2.564859992054842
+{assignee},1709,1.7408044981817812
+"{is_archived, assignee}",644,0.6559848430831288
+{team},496,0.5052305623745836
+{project},493,0.5021747323602213
+"{is_archived, status, project, assignee}",485,0.4940258523219215
+"{status, project}",284,0.2892852413596406
+{title},235,0.23937335112505476
+"{is_archived, team, status, project}",225,0.22918725107718008
+"{is_archived, status, project_id}",213,0.21696393101973047
+"{is_archived, service, project}",212,0.215945321014943
+"{is_archived, project, priority}",199,0.20270339095270593
+"{is_archived, cpg_source, service, project}",184,0.18742424088089393
+"{urgency, status}",183,0.18640563087610645
+"{is_archived, assignee, status}",166,0.16908926079471953
+"{creation_source, is_archived, project}",155,0.15788455074205737
+"{is_archived, project_id}",123,0.12528903058885843
+"{urgency, status, team}",118,0.1201959805649211
+"{status, team}",116,0.11815876055534617
+{env},114,0.11612154054577124
+"{env, group, app_name}",107,0.10899127051225896
+"{is_archived, priority}",89,0.09065629042608457
+"{is_archived, env, assignee, project}",82,0.0835260203925723
+"{is_archived, team}",73,0.0743585303494851
+"{is_archived, status, priority}",71,0.07232131033991016
+"{team, env, is_archived, project}",62,0.06315382029682295
+"{is_archived, status, project, env, team}",62,0.06315382029682295
+{is_escalated},58,0.05907938027767309
+"{env, service, datacenter}",56,0.05704216026809815
+"{team, is_archived, project}",52,0.05296772024894829
+"{created_by, is_archived}",49,0.049911890234585886
+"{is_archived, status, project, priority}",46,0.04685606022022348
+"{is_escalated, project}",46,0.04685606022022348
+"{is_archived, status, project, env, title}",37,0.03768857017713628
+"{created_at, is_archived}",35,0.035651350167561345
+"{type, is_archived, status, priority, project, env, title}",32,0.03259552015319894
+"{created_by, team}",32,0.03259552015319894
+"{service, team}",25,0.025465250119686672
+"{is_archived, status, env, title, project_id}",24,0.02444664011489921
+"{is_archived, title, project, resolved_reason}",24,0.02444664011489921
+"{is_archived, title, project}",22,0.022409420105324276
+"{title, team, status}",21,0.021390810100536808
+"{creation_source, status, team}",20,0.02037220009574934
+"{service, project}",20,0.02037220009574934
+"{is_archived, status, priority, project_id}",16,0.01629776007659947
+"{is_archived, title, project_id}",15,0.015279150071812006
+"{env, team}",13,0.013241930062237072
+"{is_archived, title, resolved_reason, project_id}",13,0.013241930062237072
+"{title, project, status, third_party_vendor_name}",8,0.008148880038299736
+"{is_archived, assignee, service}",8,0.008148880038299736
+{region},6,0.006111660028724803
+"{type, is_archived, status, priority, env, title, project_id}",4,0.004074440019149868
+"{is_archived, env, integration, project_id}",4,0.004074440019149868
+"{cpg_source, service, project}",4,0.004074440019149868
+"{is_archived, title, status, project_id}",3,0.0030558300143624013
+"{env, status, project}",3,0.0030558300143624013
+"{team, date}",3,0.0030558300143624013
+"{is_archived, priority, project_id}",2,0.002037220009574934
+"{created_by, is_archived, team}",2,0.002037220009574934
+"{env, status}",2,0.002037220009574934
+"{is_archived, env, assignee}",2,0.002037220009574934
+"{is_archived, title}",2,0.002037220009574934
+"{team, responder.email}",2,0.002037220009574934
+"{title, project, status}",2,0.002037220009574934
+"{responder.name, team}",1,0.001018610004787467
+{https},1,0.001018610004787467
+"{acceleration, is_escalated}",1,0.001018610004787467
+"{title, team}",1,0.001018610004787467
+"{env, service, operation_name}",1,0.001018610004787467
+"{is_archived, env, status, project}",1,0.001018610004787467
+{source},1,0.001018610004787467
+"{type, is_archived, project}",1,0.001018610004787467
+"{is_archived, status, priority, project, env}",1,0.001018610004787467
+"{is_escalated, creation_source}",1,0.001018610004787467
+"{IN_PROGRESSORstatus, status}",1,0.001018610004787467
+"{is_archived, status, team}",1,0.001018610004787467
+"{is_archived, integration, project_id}",1,0.001018610004787467
+"{project, 20service}",1,0.001018610004787467
