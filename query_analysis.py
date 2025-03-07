@@ -26,12 +26,18 @@ def extract_keywords(queries):
         keyword_list.append(set(keywords))
     return keyword_list, fts_queries
 
-def analyze_query_filters(csv_file):
+def analyze_query_filters(csv_file,orgs_to_ignore=None):
     # Load CSV file
     df = pd.read_csv(csv_file)
 
     if 'query_Query' not in df.columns:
         df.rename(columns={'query': 'query_Query'}, inplace=True)
+
+    if '@org_id' in df.columns:
+        df.rename(columns={'@org_id': 'org_id'}, inplace=True)
+
+    if orgs_to_ignore is not None:
+        df = df[~df['org_id'].isin(orgs_to_ignore)]
 
     # Extract the queries column
     queries = df['query_Query'].dropna()  # Drop NaN values to avoid errors
@@ -97,14 +103,14 @@ def analyze_query_filters(csv_file):
 
 if __name__ == "__main__":
     csv_file_all = "Casem queries - All queries.csv"  
-    # csv_file_all = "a.csv"  
 
-    result_all,tuple_results_all = analyze_query_filters(csv_file_all)
-    result_all.to_csv("filter_analysis - All Queries.csv", index=False)
-    tuple_results_all.to_csv("tuple_analysis - All Queries.csv", index=False)
+    orgs_to_ignore=[2, 1381, 197728, 349791, 1000000002, 1100000002, 1200000002, 1300000002, 1400000002]
+    result_all,tuple_results_all = analyze_query_filters(csv_file_all,orgs_to_ignore)
+    result_all.to_csv("filter_analysis - All Queries - removed orgs.csv", index=False)
+    tuple_results_all.to_csv("tuple_analysis - All Queries - removed orgs.csv", index=False)
 
     csv_file_cm = "Casem queries - Case Management Queries.csv"  
     result_cm,tuple_results_cm = analyze_query_filters(csv_file_cm)
-    result_cm.to_csv("filter_analysis - Case Management Queries.csv", index=False)
-    tuple_results_cm.to_csv("tuple_analysis - Case Management Queries.csv", index=False)
+    result_cm.to_csv("filter_analysis - Case Management Queries - removed orgs.csv", index=False)
+    tuple_results_cm.to_csv("tuple_analysis - Case Management Queries - removed orgs.csv", index=False)
 

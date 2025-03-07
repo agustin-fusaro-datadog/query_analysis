@@ -1,0 +1,337 @@
+Token Tuple,Count,Percentage
+"{monitor_id, status, is_archived}",22297,25.90896942795059
+{internal_id},15246,17.715753146097445
+"{is_archived, security_signal_id}",10156,11.801206149269687
+"{responder.uuid, status}",6823,7.928281760187778
+{error_tracking_issue_id},4682,5.440453642268676
+"{status, type, is_archived}",4176,4.852484923134129
+"{project, type, is_archived}",3694,4.29240404838541
+"{project, is_archived}",2216,2.5749776316248156
+{is_archived},1600,1.8591896257218885
+"{project, title}",1328,1.5431273893491673
+"{status, title}",1020,1.1852333863977038
+"{monitor_id, type, monitor_groups, is_archived, status, host}",754,0.8761431111214399
+"{status, project, is_archived}",745,0.8656851694767544
+"{rule_id, is_archived}",738,0.857551214864221
+{status},733,0.8517412472838403
+"{project, is_archived, assignee}",651,0.7564577789655934
+"{status, creation_source, rule_id, is_archived}",487,0.5658908423290998
+"{monitor_id, type, monitor_groups, is_archived, status, resource_name}",288,0.3346541326299399
+"{type, project, created_at, is_archived}",257,0.2986323336315783
+"{monitor_id, kube_cluster_name, pod_name, type, monitor_groups, sdlc, is_archived, status, account_alias, short_image, env, kube_container_name, kube_namespace}",251,0.2916603725351212
+"{monitor_id, type, monitor_groups, is_archived, notif_reg, status, notif_cust}",190,0.22077876805447427
+"{monitor_id, type, monitor_groups, is_archived, hostname, status}",170,0.19753889773295066
+"{status, project, is_archived, assignee}",158,0.18359497554003648
+"{monitor_id, is_archived}",153,0.17778500795965557
+"{monitor_id, type, monitor_groups, is_archived, service, status}",143,0.16616507279889378
+"{type, project, created_at}",133,0.15454513763813196
+"{type, project_id, is_archived, modified_at, status, created_at}",131,0.15222115060597963
+"{monitor_id, type, monitor_groups, is_archived, status, device, host}",130,0.15105915708990345
+"{responder.uuid, status, urgency}",124,0.14408719599344635
+"{monitor_id, name, type, monitor_groups, is_archived, status}",121,0.1406012154452178
+"{monitor_id, status, monitor_groups, is_archived}",106,0.12317131270407511
+"{monitor_id, env, type, monitor_groups, is_archived, status}",105,0.12200931918799893
+{assignee},103,0.11968533215584658
+"{monitor_id, device_name, type, monitor_groups, environment, is_archived, status, device, applicationid, zone, name, aws_account, region, host}",100,0.11619935160761803
+"{team, status}",97,0.11271337105938949
+"{monitor_id, type, monitor_groups, is_archived, issue.id, status}",97,0.11271337105938949
+"{monitor_id, type, monitor_groups, is_archived, status, haproxy_service}",96,0.11155137754331332
+"{status, is_archived}",95,0.11038938402723714
+"{type, status, project, created_at}",93,0.10806539699508477
+"{monitor_id, kube_cluster_name, type, monitor_groups, is_archived, status, env, kube_namespace}",91,0.10574140996293241
+"{monitor_id, device_name, type, monitor_groups, is_archived, sbc_hostname, sbc_systemapplication, status, sbc_env, sbc_level, sbc_ipaddress, host}",80,0.09295948128609442
+"{monitor_id, queue, type, monitor_groups, is_archived, status, host}",79,0.09179748777001824
+"{monitor_id, story_key, type, monitor_groups, is_archived, status, story_type}",76,0.0883115072217897
+"{monitor_id, type, monitor_groups, is_archived, filesystem, device, sbc_hostname, sbc_systemapplication, status, sbc_env, sbc_level, sbc_ipaddress, mount}",68,0.07901555909318025
+"{monitor_id, type, monitor_groups, is_archived, service, status, resource_name, env}",64,0.07436758502887554
+"{monitor_id, type, monitor_groups, is_archived, location_id, status}",59,0.06855761744849463
+"{monitor_id, type, monitor_groups, is_archived, application, status, status_code, region, tenant}",58,0.06739562393241846
+"{monitor_id, type, monitor_groups, is_archived, service, status, location, env}",54,0.06274764986811374
+"{supplier_name, operation, monitor_id, type, monitor_groups, is_archived, status}",53,0.061585656352037554
+{team},51,0.0592616693198852
+"{monitor_id, instance, type, monitor_groups, is_archived, status, host}",47,0.05461369525558048
+"{monitor_id, product, module, type, monitor_groups, is_archived, status, region}",45,0.052289708223428114
+"{monitor_id, env, type, monitor_groups, is_archived, status, task}",45,0.052289708223428114
+"{monitor_id, type, monitor_groups, is_archived, http.path_group, status}",45,0.052289708223428114
+"{monitor_id, type, monitor_groups, is_archived, consumer_group_id, status, env, resource_id}",45,0.052289708223428114
+"{project, type, is_archived, status, created_at}",45,0.052289708223428114
+"{monitor_id, type, monitor_groups, is_archived, status, timestamp}",45,0.052289708223428114
+"{monitor_id, type, monitor_groups, is_archived, service, status, env, action, region}",43,0.04996572119127576
+"{monitor_id, type, monitor_groups, is_archived, status, device, sbc_ipaddress, host}",42,0.04880372767519957
+"{monitor_id, type, monitor_groups, is_archived, consumer_group_id, status}",42,0.04880372767519957
+"{monitor_id, type, monitor_groups, is_archived, status, sbc_hostname, sbc_ipaddress}",41,0.04764173415912339
+"{monitor_id, database_instance, type, monitor_groups, is_archived, status, host}",41,0.04764173415912339
+"{monitor_id, type, monitor_groups, is_archived, stream_name, status}",40,0.04647974064304721
+"{monitor_id, type, monitor_groups, is_archived, functionname, status}",39,0.04531774712697103
+"{monitor_id, type, monitor_groups, queuename, is_archived, service, status, env, region}",39,0.04531774712697103
+"{db_service, monitor_id, type, monitor_groups, is_archived, status}",37,0.04299376009481867
+"{team, responder.uuid, status}",36,0.04183176657874249
+"{monitor_id, type, monitor_groups, is_archived, status, host, mount}",35,0.04066977306266631
+"{monitor_id, type, monitor_groups, is_archived, bosh_deployment, bosh_ip, status}",34,0.03950777954659013
+"{monitor_id, type, monitor_groups, is_archived, subscription_name, status, backendsettingspool, name, resource_group}",33,0.03834578603051395
+"{team, responder.uuid, status, urgency}",33,0.03834578603051395
+"{app_to, monitor_id, type, monitor_groups, is_archived, status, app_from}",33,0.03834578603051395
+"{monitor_id, pl, type, monitor_groups, is_archived, status}",33,0.03834578603051395
+"{is_archived, internal_id}",33,0.03834578603051395
+"{monitor_id, type, monitor_groups, is_archived, status, region}",33,0.03834578603051395
+"{monitor_id, monitor_groups, is_archived}",33,0.03834578603051395
+"{closed_at, status, creation_source, is_archived}",33,0.03834578603051395
+"{monitor_id, type, monitor_groups, is_archived, service, status, kube_namespace}",32,0.03718379251443777
+"{monitor_id, certificate, type, monitor_groups, is_archived, hostname, status, certificate_type, ip_address, directory_path, env, rke2_type, application_level, systemapplication}",32,0.03718379251443777
+"{monitor_id, type, monitor_groups, topic, is_archived, status, consumer_group, env, region}",31,0.03602179899836159
+"{monitor_id, type, monitor_groups, is_archived, service, status, http.status_code}",31,0.03602179899836159
+"{priority, type, project, is_archived, status, created_at}",31,0.03602179899836159
+"{monitor_id, type, monitor_groups, provider, is_archived, currency, status}",31,0.03602179899836159
+"{monitor_id, type, monitor_groups, is_archived, status, application, region}",30,0.03485980548228541
+"{monitor_id, zone, type, monitor_groups, is_archived, status}",30,0.03485980548228541
+"{monitor_id, kube_cluster_name, type, monitor_groups, is_archived, kube_deployment, service, status, domain}",30,0.03485980548228541
+"{status, priority, is_archived}",30,0.03485980548228541
+"{type, created_at, assignee}",29,0.03369781196620923
+"{status, creation_source, is_archived}",29,0.03369781196620923
+"{monitor_id, device_name, type, monitor_groups, is_archived, sbc_hostname, sbc_systemapplication, status, sbc_env, sbc_level, sbc_ipaddress}",28,0.03253581845013305
+"{monitor_id, env, type, monitor_groups, is_archived, status, http.status_code}",28,0.03253581845013305
+{title},28,0.03253581845013305
+"{monitor_id, type, monitor_groups, is_archived, status, title}",26,0.03021183141798069
+"{service, project}",25,0.029049837901904508
+"{monitor_id, type, monitor_groups, is_archived, status, resource_name, http.status_code}",24,0.02788784438582833
+"{monitor_id, type, monitor_groups, job_name, subsystem_name, job_user, is_archived, application, status, job_active_status, job_id, host}",24,0.02788784438582833
+"{monitor_id, account_alias, env, type, monitor_groups, is_archived, status}",24,0.02788784438582833
+"{monitor_id, database_instance, type, monitor_groups, is_archived, status}",24,0.02788784438582833
+"{endpoint, monitor_id, type, monitor_groups, is_archived, status}",23,0.026725850869752148
+"{monitor_id, env, type, monitor_groups, is_archived, hostaddress, status}",23,0.026725850869752148
+"{monitor_id, type, monitor_groups, is_archived, bank_name, status}",23,0.026725850869752148
+"{monitor_id, schedule_id, env, type, monitor_groups, is_archived, status}",23,0.026725850869752148
+"{status, project}",23,0.026725850869752148
+"{monitor_id, type, monitor_groups, is_archived, service, status, env, dbinstanceidentifier, region}",23,0.026725850869752148
+"{monitor_id, type, monitor_groups, is_archived, status, database_id}",22,0.02556385735367597
+"{monitor_id, type, monitor_groups, is_archived, status, process, host}",22,0.02556385735367597
+"{project_id, is_archived}",22,0.02556385735367597
+"{test_service, env, is_archived, repository_id, fingerprint}",22,0.02556385735367597
+"{monitor_id, type, monitor_groups, is_archived, service, status, path}",21,0.024401863837599784
+"{monitor_id, env, type, monitor_groups, is_archived, hystrixcircuit, status}",20,0.023239870321523606
+"{monitor_id, type, monitor_groups, is_archived, hystrixcircuit, status}",20,0.023239870321523606
+"{monitor_id, env, type, monitor_groups, is_archived, service, status}",20,0.023239870321523606
+"{monitor_id, attr.ns, type, monitor_groups, is_archived, status}",19,0.022077876805447424
+"{monitor_id, datacenter, type, monitor_groups, is_archived, status}",19,0.022077876805447424
+"{monitor_id, name, type, monitor_groups, is_archived, status, device}",19,0.022077876805447424
+"{monitor_id, type, monitor_groups, is_archived, status, env, activity, owner}",19,0.022077876805447424
+"{monitor_id, kube_cluster_name, pod_name, type, monitor_groups, sdlc, is_archived, status, account_alias, short_image, env, kube_namespace}",19,0.022077876805447424
+"{monitor_id, type, monitor_groups, is_archived, environment, status}",18,0.020915883289371245
+"{monitor_id, type, monitor_groups, is_archived, status, tenant}",18,0.020915883289371245
+"{monitor_id, type, monitor_groups, topic, is_archived, status, group, region, dimension}",18,0.020915883289371245
+"{monitor_id, env, type, monitor_groups, is_archived, status, source}",18,0.020915883289371245
+"{monitor_id, env, type, monitor_groups, is_archived, status, region}",18,0.020915883289371245
+"{monitor_id, type, monitor_groups, is_archived, cell, status, region}",18,0.020915883289371245
+"{monitor_id, kube_cluster_name, pod_name, type, monitor_groups, sdlc, is_archived, status, short_image, env}",18,0.020915883289371245
+"{monitor_id, type, monitor_groups, is_archived, status, sbc}",18,0.020915883289371245
+"{notificationkey, monitor_id, type, monitor_groups, is_archived, status}",18,0.020915883289371245
+"{monitor_id, kube_cluster_name, type, monitor_groups, is_archived, kube_deployment, status}",17,0.019753889773295064
+"{monitor_id, name, type, monitor_groups, is_archived, status, stack}",17,0.019753889773295064
+"{monitor_id, type, monitor_groups, is_archived, partner, status, devicetype}",17,0.019753889773295064
+"{monitor_id, customer, kube_cluster_name, type, monitor_groups, pod_name, is_archived, status, kube_container_name, region, kube_namespace, host}",17,0.019753889773295064
+"{monitor_id, type, monitor_groups, is_archived, fund_name, status}",16,0.018591896257218885
+"{monitor_id, client, environment, type, monitor_groups, is_archived, host}",16,0.018591896257218885
+"{monitor_id, type, monitor_groups, is_archived, status, targetgroup, spgpfarm, spgpstack, region}",16,0.018591896257218885
+"{monitor_id, env, type, monitor_groups, url_path, is_archived, status}",16,0.018591896257218885
+"{platform, monitor_id, type, monitor_groups, is_archived, status, rfc190_deployment}",16,0.018591896257218885
+"{monitor_id, type, monitor_groups, topic, is_archived, status, partition, host}",15,0.017429902741142703
+"{monitor_id, type, monitor_groups, is_archived, subscription_id, status}",15,0.017429902741142703
+"{monitor_id, type, monitor_groups, is_archived, kube_deployment, status, kube_namespace}",15,0.017429902741142703
+"{operation, monitor_id, type, monitor_groups, is_archived, status}",15,0.017429902741142703
+"{monitor_id, type, monitor_groups, is_archived, status, var_name, radar_type}",14,0.016267909225066525
+"{monitor_id, type, monitor_groups, is_archived, status, kube_namespace}",14,0.016267909225066525
+"{env, team, project, is_archived}",14,0.016267909225066525
+"{endpoint, monitor_id, type, monitor_groups, is_archived, service, status}",14,0.016267909225066525
+"{monitor_id, type, monitor_groups, is_archived, status, http.status_code}",14,0.016267909225066525
+"{env, project, is_archived, team, status}",13,0.015105915708990345
+"{resource, monitor_id, type, monitor_groups, is_archived, status}",13,0.015105915708990345
+"{team, status, title}",13,0.015105915708990345
+"{monitor_id, type, monitor_groups, is_archived, process_name, status}",13,0.015105915708990345
+"{monitor_id, pod_name, type, monitor_groups, is_archived, status}",12,0.013943922192914165
+"{monitor_id, type, monitor_groups, is_archived, status, globalsecondaryindexname, env, tablename, aws_account, region}",12,0.013943922192914165
+"{monitor_id, aws, type, monitor_groups, is_archived, status}",12,0.013943922192914165
+"{monitor_id, pod_name, type, monitor_groups, is_archived, status, pod_phase, kube_namespace}",11,0.012781928676837985
+"{team, responder.uuid}",11,0.012781928676837985
+"{monitor_id, type, monitor_groups, is_archived, status, event_name}",11,0.012781928676837985
+"{monitor_id, type, monitor_groups, is_archived, status, url, instance, host}",11,0.012781928676837985
+"{platformtype, monitor_id, location, type, monitor_groups, is_archived, status}",11,0.012781928676837985
+"{monitor_id, type, monitor_groups, is_archived, status, account_alias, queue, env}",11,0.012781928676837985
+"{monitor_id, pod_name, type, monitor_groups, k8s.pod.name, is_archived, status, kube_namespace, k8s.cluster.name, k8s.namespace.name}",11,0.012781928676837985
+"{monitor_id, type, monitor_groups, topic, is_archived, status, consumer_group, region}",11,0.012781928676837985
+"{monitor_id, env, type, monitor_groups, is_archived, status, resource_name}",10,0.011619935160761803
+"{monitor_id, type, monitor_groups, is_archived, status, targetgroup}",10,0.011619935160761803
+"{monitor_id, type, monitor_groups, is_archived, status, device, env, host}",10,0.011619935160761803
+"{monitor_id, type, monitor_groups, is_archived, status, application.name, resource.status_code}",10,0.011619935160761803
+"{monitor_id, type, monitor_groups, is_archived, host}",10,0.011619935160761803
+"{monitor_id, env, type, monitor_groups, is_archived, pod, status}",10,0.011619935160761803
+"{priority, type, project, status, created_at}",10,0.011619935160761803
+"{monitor_id, type, monitor_groups, is_archived, cluster_name, status, container_name}",10,0.011619935160761803
+"{monitor_id, project, type, monitor_groups, is_archived, status}",10,0.011619935160761803
+"{monitor_id, kube_cluster_name, pod_name, type, monitor_groups, is_archived, kube_deployment, status, kube_namespace}",10,0.011619935160761803
+"{monitor_id, type, monitor_groups, is_archived, status, zone_name}",10,0.011619935160761803
+"{monitor_id, customer, type, monitor_groups, is_archived, status, name, tenant}",10,0.011619935160761803
+"{monitor_id, type, monitor_groups, topic, is_archived, service, status, env, region}",10,0.011619935160761803
+"{monitor_id, type, monitor_groups, is_archived, status, device, app, host}",9,0.010457941644685623
+"{monitor_id, type, monitor_groups, is_archived, cluster_name, status, host}",9,0.010457941644685623
+"{monitor_id, category, type, monitor_groups, is_archived, status}",9,0.010457941644685623
+"{monitor_id, customer, type, monitor_groups, is_archived, hostname, status, env}",9,0.010457941644685623
+"{created_by, status, is_archived}",9,0.010457941644685623
+"{is_archived, assignee}",9,0.010457941644685623
+"{monitor_id, type, monitor_groups, is_archived, queuename, status}",9,0.010457941644685623
+{project},9,0.010457941644685623
+"{monitor_id, type, monitor_groups, is_archived, product_id, status}",9,0.010457941644685623
+"{monitor_id, account, env, type, monitor_groups, is_archived, status}",8,0.009295948128609443
+"{service_exit_code, monitor_id, type, monitor_groups, is_archived, status}",8,0.009295948128609443
+"{monitor_id, kube_cluster_name, type, monitor_groups, is_archived, status, kube_namespace}",8,0.009295948128609443
+"{monitor_id, type, monitor_groups, is_archived, gql.field, status}",8,0.009295948128609443
+"{monitor_id, type, error_type, monitor_groups, is_archived, status}",8,0.009295948128609443
+"{monitor_id, task_name, type, monitor_groups, is_archived, task_arn}",8,0.009295948128609443
+"{monitor_id, type, monitor_groups, is_archived, http.response.status_code, status, resource_name}",8,0.009295948128609443
+"{service, project, is_archived}",8,0.009295948128609443
+"{monitor_id, type, monitor_groups, is_archived, kube_cronjob, status, kube_namespace}",7,0.008133954612533262
+"{monitor_id, type, monitor_groups, is_archived, partnererrorcode, status}",7,0.008133954612533262
+"{status, is_archived, assignee}",7,0.008133954612533262
+"{monitor_id, type, topic, monitor_groups, is_archived, status}",7,0.008133954612533262
+"{location, monitor_id, env, type, monitor_groups, is_archived, status}",7,0.008133954612533262
+"{monitor_id, type, monitor_groups, is_archived, status, bucketname}",7,0.008133954612533262
+"{monitor_id, customer, type, monitor_groups, is_archived, status, database_id, gcp_sql_database_instance}",7,0.008133954612533262
+"{monitor_id, desc, type, monitor_groups, is_archived, sbc_systemapplication, status, env, sbc_level, resource_type, resource_id, source}",7,0.008133954612533262
+"{monitor_id, az, type, monitor_groups, is_archived, status, resource_name}",7,0.008133954612533262
+"{monitor_id, type, monitor_groups, is_archived, sbc_hostname, sbc_systemapplication, status, sbc_env, sbc_level, sbc_ipaddress, host}",7,0.008133954612533262
+"{monitor_id, device_name, type, monitor_groups, is_archived, status, host}",6,0.006971961096457082
+"{website_url, monitor_id, type, monitor_groups, sbc_classification, is_archived, sbc_systemapplication, status, instance, sbc_env, sbc_level, host}",6,0.006971961096457082
+"{monitor_id, interface_alias, type, monitor_groups, is_archived, status, snmp_host}",6,0.006971961096457082
+"{monitor_id, device_name, type, monitor_groups, is_archived, sbc_hostname, device, sbc_systemapplication, status, sbc_env, sbc_level, sbc_ipaddress}",6,0.006971961096457082
+"{monitor_id, airline, type, monitor_groups, is_archived, status, region}",6,0.006971961096457082
+"{monitor_id, type, monitor_groups, queuename, is_archived, status, region}",6,0.006971961096457082
+"{endpoint, monitor_id, type, monitor_groups, is_archived, status, code}",6,0.006971961096457082
+"{monitor_id, operation, type, monitor_groups, is_archived, status, env, tablename, aws_account, region}",5,0.005809967580380901
+"{team, status, urgency}",5,0.005809967580380901
+"{monitor_id, type, monitor_groups, is_archived, sbc_hostname, sbc_systemapplication, status, sbc_env, sbc_level, sbc_ipaddress}",5,0.005809967580380901
+"{monitor_id, type, monitor_groups, is_archived, sbc_hostname, device, sbc_systemapplication, status, sbc_env, sbc_level, sbc_ipaddress, host}",5,0.005809967580380901
+"{monitor_id, type, monitor_groups, is_archived, application, status, env, domain, host, db}",5,0.005809967580380901
+"{monitor_id, type, monitor_groups, is_archived, dbinstanceidentifier, status, region}",5,0.005809967580380901
+"{project, type, is_archived, service, created_at}",5,0.005809967580380901
+"{project, type, is_archived, team, status, created_at}",5,0.005809967580380901
+"{monitor_id, appName, type, monitor_groups, environment, is_archived, status, apiProxyName}",5,0.005809967580380901
+"{monitor_id, database_instance, env, type, monitor_groups, is_archived, status}",5,0.005809967580380901
+"{monitor_id, type, apiname, monitor_groups, is_archived, status}",5,0.005809967580380901
+"{monitor_id, ob_env, ob_product, type, monitor_groups, is_archived, status, process, ob_region}",5,0.005809967580380901
+"{monitor_id, type, monitor_groups, is_archived, kube_deployment, container_env, status}",5,0.005809967580380901
+"{queue_id, monitor_id, type, project_id, monitor_groups, is_archived, status}",5,0.005809967580380901
+"{apiid, monitor_id, type, monitor_groups, is_archived, status}",4,0.004647974064304721
+"{monitor_id, type, monitor_groups, is_archived, status}",4,0.004647974064304721
+"{monitor_id, type, monitor_groups, is_archived, status, target}",4,0.004647974064304721
+"{status, urgency}",4,0.004647974064304721
+"{monitor_id, type, monitor_groups, is_archived, status, client, snowgroup, host}",4,0.004647974064304721
+"{is_archived, project, resolved_reason, title}",4,0.004647974064304721
+"{monitor_id, type, monitor_groups, is_archived, status, kube_app_name, env, kube_namespace}",4,0.004647974064304721
+"{monitor_id, type, monitor_groups, is_archived, kube_deployment, status, cluster_name, kube_namespace}",4,0.004647974064304721
+"{service, type, project, created_at}",4,0.004647974064304721
+"{monitor_id, type, monitor_groups, is_archived, status, env, region, stack}",4,0.004647974064304721
+"{monitor_id, name, type, monitor_groups, is_archived, resource_group, status}",4,0.004647974064304721
+"{monitor_id, kube_cluster_name, type, monitor_groups, is_archived, status}",4,0.004647974064304721
+"{monitor_id, type, appname, monitor_groups, is_archived, status}",4,0.004647974064304721
+"{app_name, env, group}",4,0.004647974064304721
+"{monitor_id, type, monitor_groups, is_archived, status, container_name}",4,0.004647974064304721
+"{monitor_id, type, monitor_groups, is_archived, kube_deployment, status}",4,0.004647974064304721
+"{monitor_id, type, monitor_groups, is_archived, product_identifier, status}",4,0.004647974064304721
+"{monitor_id, type, monitor_groups, is_archived, id, status, region}",4,0.004647974064304721
+"{monitor_id, type, monitor_groups, is_archived, service, status, property}",4,0.004647974064304721
+"{monitor_id, template, channel, type, monitor_groups, is_archived, status}",4,0.004647974064304721
+"{monitor_id, type, monitor_groups, is_archived, status, cluster, host, stack}",4,0.004647974064304721
+"{project, type, team, status, created_at}",4,0.004647974064304721
+"{monitor_id, type, monitor_groups, is_archived, status, resource_id}",4,0.004647974064304721
+"{monitor_id, type, monitor_groups, is_archived, status, event}",3,0.003485980548228541
+"{env, project, is_archived}",3,0.003485980548228541
+"{monitor_id, device_name, type, monitor_groups, is_archived, sbc_hostname, device, sbc_systemapplication, status, sbc_ipaddress, host}",3,0.003485980548228541
+"{monitor_id, type, monitor_groups, is_archived, host, microsoft_sql_instance}",3,0.003485980548228541
+"{monitor_id, type, monitor_groups, topic, is_archived, service, status}",3,0.003485980548228541
+"{policy_name, monitor_id, type, monitor_groups, is_archived, status}",3,0.003485980548228541
+"{monitor_id, tailnumber, type, monitor_groups, is_archived, status}",3,0.003485980548228541
+"{monitor_id, type, monitor_groups, is_archived, cluster_name, status}",3,0.003485980548228541
+"{endpoint, monitor_id, partner_id, type, monitor_groups, is_archived, status}",3,0.003485980548228541
+"{monitor_id, type, monitor_groups, is_archived, currency, status, instrument_type}",3,0.003485980548228541
+"{monitor_id, env, type, monitor_groups, is_archived, name, status}",3,0.003485980548228541
+"{monitor_id, type, monitor_groups, is_archived, status, resource_name, http.status_code, http.status_class}",3,0.003485980548228541
+"{monitor_id, cloud.provider, type, monitor_groups, cloud.region, is_archived, status, physical_cluster_id}",3,0.003485980548228541
+"{type, created_at, is_archived, assignee}",3,0.003485980548228541
+"{monitor_id, type, monitor_groups, is_archived, status, namespace}",3,0.003485980548228541
+"{monitor_id, env, type, monitor_groups, job_name, is_archived, status}",3,0.003485980548228541
+"{monitor_id, type, monitor_groups, is_archived, error, status}",3,0.003485980548228541
+"{monitor_id, type, monitor_groups, is_archived, status, devicetype}",3,0.003485980548228541
+"{monitor_id, env, type, monitor_groups, is_archived, status, host}",3,0.003485980548228541
+"{monitor_id, type, monitor_groups, scope, is_archived, status, application}",3,0.003485980548228541
+"{monitor_id, type, monitor_groups, is_archived, service, status, resource_name}",3,0.003485980548228541
+"{monitor_id, type, monitor_groups, is_archived, provider, status}",3,0.003485980548228541
+"{monitor_id, type, monitor_groups, is_archived, status, location, id, imei, country, app_version}",3,0.003485980548228541
+"{monitor_id, type, monitor_groups, is_archived, service, status, cluster}",3,0.003485980548228541
+"{monitor_id, endpoint_type, url, type, monitor_groups, is_archived, status}",3,0.003485980548228541
+"{monitor_id, type, monitor_groups, is_archived, status, datadog_index}",3,0.003485980548228541
+"{monitor_id, type, appname, monitor_groups, is_archived, status, app_name, env}",3,0.003485980548228541
+"{monitor_id, type, monitor_groups, is_archived, status, path}",2,0.0023239870321523606
+"{monitor_id, type, monitor_groups, is_archived, dbinstanceidentifier, status}",2,0.0023239870321523606
+"{monitor_id, http.host, type, monitor_groups, is_archived, status}",2,0.0023239870321523606
+"{fgid, monitor_id, type, monitor_groups, is_archived, jobname, status}",2,0.0023239870321523606
+{responder.uuid},2,0.0023239870321523606
+"{monitor_id, type, resourcearn, monitor_groups, is_archived, accountname, status}",2,0.0023239870321523606
+"{monitor_id, story_key, type, monitor_groups, is_archived, status}",2,0.0023239870321523606
+"{monitor_id, kube_cluster_name, pod_name, type, monitor_groups, is_archived, kube_namespace}",2,0.0023239870321523606
+"{project, creation_source, is_archived}",2,0.0023239870321523606
+"{team, env}",2,0.0023239870321523606
+"{team, responder.name}",2,0.0023239870321523606
+"{db_name, monitor_id, type, monitor_groups, partnerid, is_archived, status, schedule_id, server, gqe_env, host}",2,0.0023239870321523606
+"{monitor_id, kube_cluster_name, type, monitor_groups, sdlc, is_archived, status, account_alias, env, kube_namespace, persistentvolumeclaim}",2,0.0023239870321523606
+"{project, type, is_archived, created_at, rule_id}",2,0.0023239870321523606
+"{creation_source, project_id, is_archived}",2,0.0023239870321523606
+"{monitor_id, type, monitor_groups, is_archived, ci.pipeline.name, status}",2,0.0023239870321523606
+"{monitor_id, customer, type, monitor_groups, is_archived, status, sys_mon_queue_name, host}",2,0.0023239870321523606
+"{monitor_id, kube_cluster_name, type, monitor_groups, is_archived, status, name, region}",2,0.0023239870321523606
+"{monitor_id, type, monitor_groups, is_archived, site_id, problem_id, status}",2,0.0023239870321523606
+"{monitor_id, story_key, type, monitor_groups, is_archived, service, status, resource_name}",2,0.0023239870321523606
+"{monitor_id, type, monitor_groups, is_archived, destination_service_name, status}",1,0.0011619935160761803
+"{monitor_id, type, monitor_groups, is_archived, vehicletype, status}",1,0.0011619935160761803
+"{created_by, is_archived}",1,0.0011619935160761803
+"{monitor_id, type, monitor_groups, is_archived, service, status, host}",1,0.0011619935160761803
+"{monitor_id, type, monitor_groups, is_archived, status, kube_node}",1,0.0011619935160761803
+"{monitor_id, type, topic, monitor_groups, is_archived, status, consumer_group}",1,0.0011619935160761803
+"{monitor_id, type, monitor_groups, is_archived, status, location, name, region, hvr_aws_account}",1,0.0011619935160761803
+"{monitor_id, environment, type, monitor_groups, is_archived, status, client, host}",1,0.0011619935160761803
+"{monitor_id, queue, type, monitor_groups, is_archived, status}",1,0.0011619935160761803
+"{monitor_id, type, monitor_groups, is_archived, errorcode, status}",1,0.0011619935160761803
+"{monitor_id, name, type, monitor_groups, is_archived, status, tenant}",1,0.0011619935160761803
+"{monitor_id, type, monitor_groups, is_archived, status, params.event}",1,0.0011619935160761803
+"{monitor_id, type, monitor_groups, sbc_satellite_name, is_archived, sbc_hostname, status, snmp_device, sbc_env}",1,0.0011619935160761803
+"{monitor_id, name, type, monitor_groups, is_archived, status, host}",1,0.0011619935160761803
+"{monitor_id, type, monitor_groups, is_archived, id, status}",1,0.0011619935160761803
+"{monitor_id, type, monitor_groups, is_archived, status, container_id}",1,0.0011619935160761803
+"{monitor_id, service, type, monitor_groups, is_archived, issue.id, status}",1,0.0011619935160761803
+"{project_id, is_archived, assignee}",1,0.0011619935160761803
+"{monitor_id, kube_cluster_name, type, monitor_groups, is_archived, service, status, kube_namespace}",1,0.0011619935160761803
+"{clustername, monitor_id, type, monitor_groups, is_archived, status}",1,0.0011619935160761803
+"{team, title}",1,0.0011619935160761803
+"{monitor_id, pod_name, type, monitor_groups, is_archived, status, kube_container_name, region, kube_namespace}",1,0.0011619935160761803
+"{monitor_id, type, monitor_groups, is_archived, loadbalancer, targetgroup, name, aws_account, region}",1,0.0011619935160761803
+"{monitor_id, pod_name, type, monitor_groups, is_archived}",1,0.0011619935160761803
+"{monitor_id, type, monitor_groups, functionname, is_archived, status, region}",1,0.0011619935160761803
+"{monitor_id, db.query_signature, type, monitor_groups, is_archived, status, host}",1,0.0011619935160761803
+"{monitor_id, account, type, monitor_groups, is_archived, status, host}",1,0.0011619935160761803
+"{monitor_id, kube_cluster_name, type, monitor_groups, is_archived, kube_deployment, status, env, kube_namespace}",1,0.0011619935160761803
+"{team, status, responder.name}",1,0.0011619935160761803
+"{monitor_id, type, monitor_groups, is_archived, detail, status}",1,0.0011619935160761803
+"{monitor_id, kube_cluster_name, env, type, monitor_groups, is_archived, status}",1,0.0011619935160761803
+"{monitor_id, appName, type, monitor_groups, environment, is_archived, apiProxyName}",1,0.0011619935160761803
+"{monitor_id, environment, type, monitor_groups, is_archived, status, name, region, host, component}",1,0.0011619935160761803
+"{monitor_id, type, monitor_groups, is_archived, device.id, status}",1,0.0011619935160761803
+"{monitor_id, type, monitor_groups, is_archived, sys_mon_queue_name, status, kube_namespace}",1,0.0011619935160761803
+"{monitor_id, type, monitor_groups, is_archived, adapter, status}",1,0.0011619935160761803
+"{monitor_id, kube_cluster_name, type, monitor_groups, is_archived, service, status, landing_zone, env, domain}",1,0.0011619935160761803
+"{monitor_id, type, monitor_groups, is_archived, status, method, env, path}",1,0.0011619935160761803
+"{monitor_id, type, monitor_groups, is_archived, service, status, resource_name, env, service_code}",1,0.0011619935160761803
+"{monitor_id, type, monitor_groups, is_archived, status, zone, project, kube_namespace, host, persistentvolumeclaim}",1,0.0011619935160761803
+"{monitor_id, entityname, type, monitor_groups, is_archived, status}",1,0.0011619935160761803
+"{type, project_id, is_archived}",1,0.0011619935160761803
+"{metadata.query.query, monitor_id, type, monitor_groups, is_archived, status}",1,0.0011619935160761803
+"{monitor_id, operation, severity, type, monitor_groups, is_archived, service, status, location}",1,0.0011619935160761803
+"{monitor_id, kafka_group, type, monitor_groups, is_archived, status}",1,0.0011619935160761803
+"{monitor_id, type, monitor_groups, is_archived, status, systemenvironment, platform_support_group, host}",1,0.0011619935160761803
