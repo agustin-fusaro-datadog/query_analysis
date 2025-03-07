@@ -110,7 +110,7 @@ if __name__ == "__main__":
     tuple_results_all.to_csv("tuple_analysis - All Queries - removed orgs.csv", index=False)
 
     csv_file_cm = "Casem queries - Case Management Queries.csv"  
-    result_cm,tuple_results_cm = analyze_query_filters(csv_file_cm)
+    result_cm,tuple_results_cm = analyze_query_filters(csv_file_cm,orgs_to_ignore)
     result_cm.to_csv("filter_analysis - Case Management Queries - removed orgs.csv", index=False)
     tuple_results_cm.to_csv("tuple_analysis - Case Management Queries - removed orgs.csv", index=False)
 
